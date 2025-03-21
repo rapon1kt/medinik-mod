@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "medinik:block/medriod_block"
+    }
+  }
+}

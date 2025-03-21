@@ -1,4 +1,9 @@
 {
   "item.medinik.medriod": "Medriod Ingot",
-  "item.medinik.raw_medriod": "Raw Medriod"
+  "item.medinik.raw_medriod": "Raw Medriod",
+
+  "block.medinik.medriod_block": "Medriod Block",
+  "block.medinik.raw_medriod_block": "Raw Medriod Block",
+  "block.medinik.deepslate_medriod_ore": "Deepslate Medriod Ore",
+  "block.medinik.medriod_ore": "Medriod Ore"
 }

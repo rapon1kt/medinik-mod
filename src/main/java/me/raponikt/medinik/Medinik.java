@@ -1,5 +1,6 @@
 package me.raponikt.medinik;
 
+import me.raponikt.medinik.block.ModBlocks;
 import me.raponikt.medinik.item.ModItems;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.CreativeModeTabs;
@@ -28,6 +29,7 @@ public class Medinik {
         MinecraftForge.EVENT_BUS.register(this);
 
         ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
 
         // Register the item to a creative tab
         modEventBus.addListener(this::addCreative);
@@ -44,6 +46,13 @@ public class Medinik {
         if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
             event.accept(ModItems.MEDRIOD);
             event.accept(ModItems.RAW_MEDRIOD);
+        }
+
+        if (event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
+            event.accept(ModBlocks.MEDRIOD_BLOCK);
+            event.accept(ModBlocks.RAW_MEDRIOD_BLOCK);
+            event.accept(ModBlocks.DEEPSLATE_MEDRIOD_ORE);
+            event.accept(ModBlocks.MEDRIOD_ORE);
         }
     }
 
