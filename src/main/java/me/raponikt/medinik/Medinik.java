@@ -1,6 +1,7 @@
 package me.raponikt.medinik;
 
 import me.raponikt.medinik.block.ModBlocks;
+import me.raponikt.medinik.item.ModCreativeModeTab;
 import me.raponikt.medinik.item.ModItems;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.CreativeModeTabs;
@@ -27,6 +28,8 @@ public class Medinik {
         modEventBus.addListener(this::commonSetup);
         // Register ourselves for server and other game events we are interested in
         MinecraftForge.EVENT_BUS.register(this);
+
+        ModCreativeModeTab.register(modEventBus);
 
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
