@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "medriod",
+  "ingredients":  [
+    {
+      "item": "medinik:medriod_block"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "id": "medinik:medriod"
+  }
+}
