@@ -11,8 +11,15 @@ public class ModItems {
     public static final DeferredRegister<Item> ITEMS =
             DeferredRegister.create(ForgeRegistries.ITEMS, Medinik.MOD_ID);
 
-    public static final RegistryObject<Item> MEDRIOD = ITEMS.register("medriod", () -> new Item(new Item.Properties()));
-    public static final RegistryObject<Item> RAW_MEDRIOD = ITEMS.register("raw_medriod", () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> MEDRIOD = ITEMS.register("medriod",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> RAW_MEDRIOD = ITEMS.register("raw_medriod",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> MEDRIOD_NUGGET = ITEMS.register("medriod_nugget",
+            () -> new Item(new Item.Properties()));
+
+    public static final RegistryObject<Item> MEDRIOD_CARROT = ITEMS.register("medriod_carrot",
+            () -> new Item(new Item.Properties().food(ModFoodProperties.MEDRIOD_CARROT)));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);

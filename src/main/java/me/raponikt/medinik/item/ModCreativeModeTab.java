@@ -21,6 +21,9 @@ public class ModCreativeModeTab {
                     .displayItems((itemDisplayParameters, output) -> {
                         output.accept(ModItems.MEDRIOD.get());
                         output.accept(ModItems.RAW_MEDRIOD.get());
+                        output.accept(ModItems.MEDRIOD_NUGGET.get());
+
+                        output.accept(ModItems.MEDRIOD_CARROT.get());
                     }).build());
 
     public static final RegistryObject<CreativeModeTab> MEDINIK_BLOCKS_TAB = CREATIVE_MODE_TABS.register("medinik_blocks_tab",

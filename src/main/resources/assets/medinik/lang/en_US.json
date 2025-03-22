@@ -1,11 +1,14 @@
 {
   "item.medinik.medriod": "Medriod Ingot",
   "item.medinik.raw_medriod": "Raw Medriod",
+  "item.medinik.medriod_carrot": "Medriod Carrot",
+  "item.medinik.medriod_nugget": "Medriod Nugget",
 
   "block.medinik.medriod_block": "Medriod Block",
   "block.medinik.raw_medriod_block": "Raw Medriod Block",
   "block.medinik.deepslate_medriod_ore": "Deepslate Medriod Ore",
   "block.medinik.medriod_ore": "Medriod Ore",
+
   "creativetab.medinik.medinik_items": "Medinik Items",
   "creativetab.medinik.medinik_blocks": "Medinik Blocks"
 }
