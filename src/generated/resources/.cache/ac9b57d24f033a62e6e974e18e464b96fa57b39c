@@ -1,0 +1,13 @@
+// 1.21	2025-03-24T03:48:18.6452772	Block States: medinik
+67b4c83add1b24bd1607c1c945e870f39b6085a6 assets/medinik/blockstates/deepslate_medriod_ore.json
+772dca659beec7bba15a64a34a7bf8d69bf1823c assets/medinik/blockstates/medriod_block.json
+695b20c3b6b2415e6da2f50d6752734f7ee88d26 assets/medinik/blockstates/medriod_ore.json
+adba7b2031bd3bc408f922f5e4f9d16c66bf37a0 assets/medinik/blockstates/raw_medriod_block.json
+e04666500b8ec26153ab59c94e5c4017d6567cf1 assets/medinik/models/block/deepslate_medriod_ore.json
+a9bb9c971aba82400eeb1b3660480a163b92fb99 assets/medinik/models/block/medriod_block.json
+d10aba7072b0cb9731c5cb2317b9811e2b1ba4a3 assets/medinik/models/block/medriod_ore.json
+b8ea587a8d4b9bd525976643479cf8e848fd31c4 assets/medinik/models/block/raw_medriod_block.json
+7c84ae2249ed33c831be8ab17393c634a4756d51 assets/medinik/models/item/deepslate_medriod_ore.json
+bc67a62da241fb077261a48f4532d333e86256c7 assets/medinik/models/item/medriod_block.json
+dadfc984208487b593c39a2081c372b1904098ee assets/medinik/models/item/medriod_ore.json
+80541f322d45c3d84bc99fd2d11db6d9eb0bc28a assets/medinik/models/item/raw_medriod_block.json

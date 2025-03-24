@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_medriod_ore": {
+      "conditions": {
+        "items": [
+          {
+            "items": "medinik:medriod_ore"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "medinik:medriod_from_smelting_medriod_ore"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_medriod_ore"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "medinik:medriod_from_smelting_medriod_ore"
+    ]
+  }
+}

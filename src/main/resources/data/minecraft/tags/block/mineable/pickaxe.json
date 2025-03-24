@@ -1,9 +1,0 @@
-{
-  "replace": false,
-  "values": [
-    "medinik:medriod_block",
-    "medinik:raw_medriod_block",
-    "medinik:deepslate_medriod_ore",
-    "medinik:medriod_ore"
-  ]
-}

@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_medriod": {
+      "conditions": {
+        "items": [
+          {
+            "items": "medinik:medriod"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "medinik:medriod_nugget"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_medriod"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "medinik:medriod_nugget"
+    ]
+  }
+}
