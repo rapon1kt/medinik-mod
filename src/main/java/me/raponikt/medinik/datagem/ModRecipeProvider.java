@@ -11,7 +11,6 @@ import net.minecraft.world.item.crafting.*;
 import net.minecraft.world.level.ItemLike;
 import net.minecraftforge.common.crafting.conditions.IConditionBuilder;
 
-import java.util.ArrayList;
 import java.util.List;
 import java.util.concurrent.CompletableFuture;
 
@@ -39,7 +38,7 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .pattern("AAA")
                 .pattern("AAA")
                 .define('A', ModItems.MEDRIOD_NUGGET.get())
-                .unlockedBy(getHasName(ModItems.MEDRIOD_NUGGET.get()), has(ModItems.MEDRIOD_NUGGET.get())).save(pRecipeOutput, "2");
+                .unlockedBy(getHasName(ModItems.MEDRIOD_NUGGET.get()), has(ModItems.MEDRIOD_NUGGET.get())).save(pRecipeOutput, "888429");
 
         ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.MEDRIOD_CARROT.get())
                 .pattern("AAA")
@@ -58,7 +57,7 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
 
         ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.MEDRIOD.get(), 9)
                 .requires(ModBlocks.MEDRIOD_BLOCK.get())
-                .unlockedBy(getHasName(ModBlocks.MEDRIOD_BLOCK.get()), has(ModBlocks.MEDRIOD_BLOCK.get())).save(pRecipeOutput, "1");
+                .unlockedBy(getHasName(ModBlocks.MEDRIOD_BLOCK.get()), has(ModBlocks.MEDRIOD_BLOCK.get())).save(pRecipeOutput, "888428");
 
         ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.MEDRIOD_NUGGET.get(), 9)
                 .requires(ModItems.MEDRIOD.get())
@@ -70,6 +69,46 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
 
         oreSmelting(pRecipeOutput, MEDRIOD_SMELTABLES, RecipeCategory.MISC, ModItems.MEDRIOD.get(), 0.25f, 300, "medriod");
         oreBlasting(pRecipeOutput, MEDRIOD_SMELTABLES, RecipeCategory.MISC, ModItems.MEDRIOD.get(), 0.25f, 200, "medriod");
+
+        SmithingTransformRecipeBuilder.smithing(
+                Ingredient.of(ModItems.MEDRIOD_SMITHING_TEMPLATE.get()),
+                Ingredient.of(Items.NETHERITE_SWORD),
+                Ingredient.of(ModItems.MEDRIOD.get()),
+                RecipeCategory.MISC,
+                ModItems.MEDRIOD_SWORD.get()
+        ).unlocks("has_netherite_sword", has(Items.NETHERITE_SWORD)).save(pRecipeOutput, "888430");
+
+        SmithingTransformRecipeBuilder.smithing(
+                Ingredient.of(ModItems.MEDRIOD_SMITHING_TEMPLATE.get()),
+                Ingredient.of(Items.NETHERITE_PICKAXE),
+                Ingredient.of(ModItems.MEDRIOD.get()),
+                RecipeCategory.MISC,
+                ModItems.MEDRIOD_PICKAXE.get()
+        ).unlocks("has_netherite_pickaxe", has(Items.NETHERITE_PICKAXE)).save(pRecipeOutput, "888431");
+
+        SmithingTransformRecipeBuilder.smithing(
+                Ingredient.of(ModItems.MEDRIOD_SMITHING_TEMPLATE.get()),
+                Ingredient.of(Items.NETHERITE_AXE),
+                Ingredient.of(ModItems.MEDRIOD.get()),
+                RecipeCategory.MISC,
+                ModItems.MEDRIOD_AXE.get()
+        ).unlocks("has_netherite_axe", has(Items.NETHERITE_AXE)).save(pRecipeOutput, "888432");
+
+        SmithingTransformRecipeBuilder.smithing(
+                Ingredient.of(ModItems.MEDRIOD_SMITHING_TEMPLATE.get()),
+                Ingredient.of(Items.NETHERITE_SHOVEL),
+                Ingredient.of(ModItems.MEDRIOD.get()),
+                RecipeCategory.MISC,
+                ModItems.MEDRIOD_SHOVEL.get()
+        ).unlocks("has_netherite_shovel", has(Items.NETHERITE_SHOVEL)).save(pRecipeOutput, "888433");
+
+        SmithingTransformRecipeBuilder.smithing(
+                Ingredient.of(ModItems.MEDRIOD_SMITHING_TEMPLATE.get()),
+                Ingredient.of(Items.NETHERITE_HOE),
+                Ingredient.of(ModItems.MEDRIOD.get()),
+                RecipeCategory.MISC,
+                ModItems.MEDRIOD_HOE.get()
+        ).unlocks("has_netherite_hoe", has(Items.NETHERITE_HOE)).save(pRecipeOutput, "888434");
     }
 
     protected static void oreSmelting(

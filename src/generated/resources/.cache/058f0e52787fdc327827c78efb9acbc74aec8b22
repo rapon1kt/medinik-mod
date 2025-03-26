@@ -1,3 +1,5 @@
-// 1.21	2025-03-24T03:10:48.3652357	Tags for minecraft:block mod id medinik
+// 1.21	2025-03-26T02:19:21.7117686	Tags for minecraft:block mod id medinik
+ac8fcbe8e22bd3bd0a5220e7c3ea34891d081396 data/medinik/tags/block/incorrect_for_medriod_tool.json
+b1bf9853372f8ad8240dcbcc665e20517c8ef373 data/medinik/tags/block/needs_medriod_tool.json
 5d4dc232e9acbbb52529a334354820ebece09206 data/minecraft/tags/block/mineable/pickaxe.json
-5d4dc232e9acbbb52529a334354820ebece09206 data/minecraft/tags/block/needs_diamond_tool.json
+f5fa97f3ab44259d4442f616712e588b4acbf8f8 data/minecraft/tags/block/needs_diamond_tool.json

@@ -19,11 +19,19 @@ public class ModCreativeModeTab {
             () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.MEDRIOD.get()))
                     .title(Component.translatable("creativetab.medinik.medinik_items"))
                     .displayItems((itemDisplayParameters, output) -> {
+                        // COMMON ITEMS
                         output.accept(ModItems.MEDRIOD.get());
                         output.accept(ModItems.RAW_MEDRIOD.get());
                         output.accept(ModItems.MEDRIOD_NUGGET.get());
-
+                        // FOODS & OTHERS
                         output.accept(ModItems.MEDRIOD_CARROT.get());
+                        // TOOLS & ARMORS
+                        output.accept(ModItems.MEDRIOD_SWORD.get());
+                        output.accept(ModItems.MEDRIOD_AXE.get());
+                        output.accept(ModItems.MEDRIOD_PICKAXE.get());
+                        output.accept(ModItems.MEDRIOD_SHOVEL.get());
+                        output.accept(ModItems.MEDRIOD_HOE.get());
+                        output.accept(ModItems.MEDRIOD_SMITHING_TEMPLATE.get());
                     }).build());
 
     public static final RegistryObject<CreativeModeTab> MEDINIK_BLOCKS_TAB = CREATIVE_MODE_TABS.register("medinik_blocks_tab",

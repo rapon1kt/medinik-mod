@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "medinik:medriod"
+  },
+  "base": {
+    "item": "minecraft:netherite_shovel"
+  },
+  "result": {
+    "count": 1,
+    "id": "medinik:medriod_shovel"
+  },
+  "template": {
+    "item": "medinik:medriod_smithing_template"
+  }
+}

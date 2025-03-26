@@ -10,5 +10,18 @@
   "block.medinik.medriod_ore": "Medriod Ore",
 
   "creativetab.medinik.medinik_items": "Medinik Items",
-  "creativetab.medinik.medinik_blocks": "Medinik Blocks"
+  "creativetab.medinik.medinik_blocks": "Medinik Blocks",
+
+  "item.medinik.medriod_sword": "Medriod Sword",
+  "item.medinik.medriod_pickaxe": "Medriod Pickaxe",
+  "item.medinik.medriod_axe": "Medriod Axe",
+  "item.medinik.medriod_shovel": "Medriod Shovel",
+  "item.medinik.medriod_hoe": "Medriod Hoe",
+
+  "item.medinik.medriod_smithing_template": "Smithing Template",
+  "upgrade.medinik.medriod_upgrade": "Medriod Upgrade",
+  "item.medinik.medriod_upgrade_applies_to": "Netherite Equipments",
+  "item.medinik.medriod_upgrade_ingredients": "Medriod Ingot",
+  "item.medinik.medriod_upgrade_base_slot_description": "Netherite Equipments",
+  "item.medinik.medriod_upgrade_additions_slot_description": "Medriod Ingot"
 }

@@ -1,4 +1,4 @@
-// 1.21	2025-03-24T04:02:03.9608672	Recipes
+// 1.21	2025-03-26T03:31:33.8761233	Recipes
 805f0cc89c26c1ec848b5ed60900fe4edd7fd570 data/medinik/advancement/recipes/misc/medriod_block.json
 d4fef637c13d0e995ef8d1e3d09a1155d64a7744 data/medinik/advancement/recipes/misc/medriod_carrot.json
 1d5f049cd0297dbe84fdd2c5caa24c0356cb8408 data/medinik/advancement/recipes/misc/medriod_from_blasting_deepslate_medriod_ore.json
@@ -21,7 +21,17 @@ fbd99009d9e6cd13aa225d3bc9b639e7cca65868 data/medinik/recipe/medriod_from_smelti
 d12ce8880929c8b9d04f50713d5ff20152d11d1c data/medinik/recipe/medriod_nugget.json
 df97364126265d492d2c4b362e32664741532d66 data/medinik/recipe/raw_medriod.json
 98400e0dd13b847c34a4a891760d5478dd65e3b6 data/medinik/recipe/raw_medriod_block.json
-a6fe02a7cf0918790968f6a8bfe29b611fe6cf46 data/minecraft/advancement/recipes/misc/1.json
-be405fe71579195c7df65e22c8299ac11235784d data/minecraft/advancement/recipes/misc/2.json
-19fa6201d1ad048648732ad92ea0fdefd80c3627 data/minecraft/recipe/1.json
-c2dfc8e9778d7278484e5dc9f3f827708cfe5965 data/minecraft/recipe/2.json
+11ddace22b032b99f16b1a60f6b512fe8ebe8524 data/minecraft/advancement/recipes/misc/888428.json
+3c7b60ca10ec3580c55fc894fabe408c84c91e8d data/minecraft/advancement/recipes/misc/888429.json
+a2f8520937d7561b6eddc5a01af354bb54ebcc0e data/minecraft/advancement/recipes/misc/888430.json
+26569d1869511aa0df168305faadd1f9d8d7c671 data/minecraft/advancement/recipes/misc/888431.json
+0bb7a2645e7ae0c69417938fe8733dbaf68f20be data/minecraft/advancement/recipes/misc/888432.json
+464458ad6cf56c891d47a6435a6be9e0c2400724 data/minecraft/advancement/recipes/misc/888433.json
+c03cfb0f095b50e6cb8af8bfccd6aacea5850117 data/minecraft/advancement/recipes/misc/888434.json
+19fa6201d1ad048648732ad92ea0fdefd80c3627 data/minecraft/recipe/888428.json
+c2dfc8e9778d7278484e5dc9f3f827708cfe5965 data/minecraft/recipe/888429.json
+ddce6b42e0c03df95e3a8106f93985b6264ceb51 data/minecraft/recipe/888430.json
+98b114dc8a4a4d6facfe34df018c0c02669d8faf data/minecraft/recipe/888431.json
+74dca5fa0d478eaf1b97a835ca24c653bbcb479a data/minecraft/recipe/888432.json
+6b5aaccdeb2f42033ddbf23e8e916d09d3b1e95d data/minecraft/recipe/888433.json
+9ce87642e075671d62006a967f3223c8683bf90f data/minecraft/recipe/888434.json
