@@ -1,11 +1,11 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_medriod_block": {
+    "has_medriod_nugget": {
       "conditions": {
         "items": [
           {
-            "items": "medinik:medriod_block"
+            "items": "medinik:medriod_nugget"
           }
         ]
       },
@@ -13,7 +13,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "minecraft:1"
+        "recipe": "minecraft:888429"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
@@ -21,12 +21,12 @@
   "requirements": [
     [
       "has_the_recipe",
-      "has_medriod_block"
+      "has_medriod_nugget"
     ]
   ],
   "rewards": {
     "recipes": [
-      "minecraft:1"
+      "minecraft:888429"
     ]
   }
 }
