@@ -2,6 +2,7 @@ package me.raponikt.medinik.datagem;
 
 import me.raponikt.medinik.Medinik;
 import me.raponikt.medinik.block.ModBlocks;
+import me.raponikt.medinik.util.ModTags;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.PackOutput;
 import net.minecraft.tags.BlockTags;
@@ -25,10 +26,17 @@ public class ModBlockTagProvider extends BlockTagsProvider {
                 .add(ModBlocks.DEEPSLATE_MEDRIOD_ORE.get());
 
         tag(BlockTags.NEEDS_DIAMOND_TOOL)
-                .add(ModBlocks.MEDRIOD_BLOCK.get())
-                .add(ModBlocks.RAW_MEDRIOD_BLOCK.get())
                 .add(ModBlocks.MEDRIOD_ORE.get())
                 .add(ModBlocks.DEEPSLATE_MEDRIOD_ORE.get());
+
+        tag(ModTags.Blocks.NEEDS_MEDRIOD_TOOL)
+                .add(ModBlocks.MEDRIOD_BLOCK.get())
+                .add(ModBlocks.RAW_MEDRIOD_BLOCK.get());
+
+        tag(ModTags.Blocks.INCORRECT_FOR_MEDRIOD_TOOL)
+                .remove(ModTags.Blocks.NEEDS_MEDRIOD_TOOL)
+                .addTag(BlockTags.INCORRECT_FOR_NETHERITE_TOOL);
+
 
     }
 }

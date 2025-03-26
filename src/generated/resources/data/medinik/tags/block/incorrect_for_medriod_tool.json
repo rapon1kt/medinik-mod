@@ -1,0 +1,8 @@
+{
+  "remove": [
+    "#medinik:needs_medriod_tool"
+  ],
+  "values": [
+    "#minecraft:incorrect_for_netherite_tool"
+  ]
+}
