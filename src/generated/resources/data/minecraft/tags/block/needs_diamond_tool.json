@@ -1,7 +1,5 @@
 {
   "values": [
-    "medinik:medriod_block",
-    "medinik:raw_medriod_block",
     "medinik:medriod_ore",
     "medinik:deepslate_medriod_ore"
   ]
