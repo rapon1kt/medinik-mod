@@ -23,6 +23,9 @@ public class ModItemModelProvider extends ItemModelProvider {
         basicItem(ModItems.MEDRIOD_CARROT.get());
         basicItem(ModItems.MEDRIOD_NUGGET.get());
         basicItem(ModItems.MEDRIOD_DUST.get());
+        basicItem(ModItems.MEDRIOD_SHARD.get());
+        basicItem(ModItems.MEDRIOD_CLUMP.get());
+        basicItem(ModItems.MEDRIOD_CRYSTAL.get());
         // TOOLS & ARMORS
         handheldItem(ModItems.MEDRIOD_SWORD);
         handheldItem(ModItems.MEDRIOD_AXE);

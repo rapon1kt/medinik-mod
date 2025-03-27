@@ -34,6 +34,12 @@ public class ModItems {
             () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> MEDRIOD_DUST = ITEMS.register("medriod_dust",
             () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> MEDRIOD_CLUMP = ITEMS.register("medriod_clump",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> MEDRIOD_SHARD = ITEMS.register("medriod_shard",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> MEDRIOD_CRYSTAL = ITEMS.register("medriod_crystal",
+            () -> new Item(new Item.Properties()));
 
     public static final RegistryObject<Item> MEDRIOD_CARROT = ITEMS.register("medriod_carrot",
             () -> new Item(new Item.Properties().food(ModFoodProperties.MEDRIOD_CARROT)));
