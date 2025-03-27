@@ -1,7 +1,8 @@
-// 1.21	2025-03-26T02:19:21.7117686	Item Models: medinik
+// 1.21	2025-03-26T23:46:11.3585424	Item Models: medinik
 ec4eec33f1d83f22308e748d4132ca8781723640 assets/medinik/models/item/medriod.json
 043758d249105ca6e2d53eeb8bccf80577ded57b assets/medinik/models/item/medriod_axe.json
 8c93b913ec8ad51ef966fc681f7299b7f5e3e88b assets/medinik/models/item/medriod_carrot.json
+e547c54ff06a4ac3d28f10f63d217153a6bb4fed assets/medinik/models/item/medriod_dust.json
 be193d014192f9d2e3e8a3664dae43ab171d8176 assets/medinik/models/item/medriod_hoe.json
 d94431ebd6c0a147c6cd390039cf6b1e97a2abac assets/medinik/models/item/medriod_nugget.json
 5018c067936412381faab71b00e9cc54f75fed0e assets/medinik/models/item/medriod_pickaxe.json

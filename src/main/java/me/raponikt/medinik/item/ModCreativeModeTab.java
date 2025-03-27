@@ -23,6 +23,7 @@ public class ModCreativeModeTab {
                         output.accept(ModItems.MEDRIOD.get());
                         output.accept(ModItems.RAW_MEDRIOD.get());
                         output.accept(ModItems.MEDRIOD_NUGGET.get());
+                        output.accept(ModItems.MEDRIOD_DUST.get());
                         // FOODS & OTHERS
                         output.accept(ModItems.MEDRIOD_CARROT.get());
                         // TOOLS & ARMORS

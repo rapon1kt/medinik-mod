@@ -32,6 +32,8 @@ public class ModItems {
             () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> MEDRIOD_NUGGET = ITEMS.register("medriod_nugget",
             () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> MEDRIOD_DUST = ITEMS.register("medriod_dust",
+            () -> new Item(new Item.Properties()));
 
     public static final RegistryObject<Item> MEDRIOD_CARROT = ITEMS.register("medriod_carrot",
             () -> new Item(new Item.Properties().food(ModFoodProperties.MEDRIOD_CARROT)));
