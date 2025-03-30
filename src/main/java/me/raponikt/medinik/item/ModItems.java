@@ -60,6 +60,20 @@ public class ModItems {
     public static final RegistryObject<Item> MEDRIOD_HOE = ITEMS.register("medriod_hoe",
             () -> new HoeItem(ModToolTiers.MEDRIOD, new Item.Properties().attributes(HoeItem.createAttributes(ModToolTiers.MEDRIOD, 5, -2))));
 
+    // Medinik - MEDRIOD ARMORS
+    public static final RegistryObject<Item> MEDRIOD_HELMET = ITEMS.register("medriod_helmet",
+            () -> new ArmorItem(ModArmorMaterials.MEDRIOD_ARMOR_MATERIAL, ArmorItem.Type.HELMET,
+                    new Item.Properties().durability(ArmorItem.Type.HELMET.getDurability(18))));
+    public static final RegistryObject<Item> MEDRIOD_CHESTPLATE = ITEMS.register("medriod_chestplate",
+            () -> new ArmorItem(ModArmorMaterials.MEDRIOD_ARMOR_MATERIAL, ArmorItem.Type.CHESTPLATE,
+                    new Item.Properties().durability(ArmorItem.Type.CHESTPLATE.getDurability(18))));
+    public static final RegistryObject<Item> MEDRIOD_LEGGINGS = ITEMS.register("medriod_leggings",
+            () -> new ArmorItem(ModArmorMaterials.MEDRIOD_ARMOR_MATERIAL, ArmorItem.Type.LEGGINGS,
+                    new Item.Properties().durability(ArmorItem.Type.LEGGINGS.getDurability(18))));
+    public static final RegistryObject<Item> MEDRIOD_BOOTS = ITEMS.register("medriod_boots",
+            () -> new ArmorItem(ModArmorMaterials.MEDRIOD_ARMOR_MATERIAL, ArmorItem.Type.BOOTS,
+                    new Item.Properties().durability(ArmorItem.Type.BOOTS.getDurability(18))));
+
     // Medinik - MEDRIOD SMITHING TEMPLATE
     private static final Component MEDRIOD_UPGRADE_APPLIES_TO = Component.translatable(Util.makeDescriptionId("item",
             ResourceLocation.fromNamespaceAndPath(Medinik.MOD_ID, "medriod_upgrade_applies_to")))

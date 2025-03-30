@@ -35,6 +35,12 @@ public class ModCreativeModeTab {
                         output.accept(ModItems.MEDRIOD_PICKAXE.get());
                         output.accept(ModItems.MEDRIOD_SHOVEL.get());
                         output.accept(ModItems.MEDRIOD_HOE.get());
+
+                        output.accept(ModItems.MEDRIOD_HELMET.get());
+                        output.accept(ModItems.MEDRIOD_CHESTPLATE.get());
+                        output.accept(ModItems.MEDRIOD_LEGGINGS.get());
+                        output.accept(ModItems.MEDRIOD_BOOTS.get());
+
                         output.accept(ModItems.MEDRIOD_SMITHING_TEMPLATE.get());
                     }).build());
 
